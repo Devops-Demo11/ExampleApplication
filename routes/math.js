@@ -41,7 +41,7 @@ router.get('/multiply', function(req, res, next) {
   if(num1 !=='' && num2 !=='') {
       result = utils.multiply(parseFloat(num1), parseFloat(num2))
   }
-  res.render('compute', { title: 'multiply' ,result:result, num1, num2, symbol:"*" });
+  res.render('compute', { title: 'multiply' ,result:result, num1, num2, symbol:"****" });
 
 });
 
